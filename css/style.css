@@ -1,0 +1,154 @@
+body {
+    height: 1000px;
+    background-image: url(../image/R.jfif);
+    height: 100vh;
+    background-image: cover;
+    background-size: 100%;
+}
+.title {
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 3px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.line1{
+    width: 105px;
+    height: 4px;
+    background-color: gray;
+    margin: auto;
+    margin-top: -29px;
+}
+.title span {
+    color: gray;
+}
+.divan {
+    width: 100px;
+    height: 98px;
+    border: 3px solid red;
+   /* border-radius: 50%;*/
+    background-color: red;
+    margin-top: 20px;
+    animation-name: change;
+    animation-duration:2s;
+    
+}
+.divan2 {
+    width: 100px;
+    height: 98px;
+    border: 3px solid black;
+   /* border-radius: 50%;*/
+    background-color: black;
+    margin-top: 30px;
+    animation-name: ahmed;
+    animation-duration: 2s;
+    animation-delay: 4s;
+    
+}
+.divan3{
+    width: 100px;
+    height: 98px;
+    border: 3px solid red;
+   /* border-radius: 50%;*/
+    background-color: red;
+    margin-top: 30px;
+    animation-name: ahmeddd;
+    animation-duration: 2s;
+    animation-delay: 8s;
+    
+}
+.divan4 {
+    width: 100px;
+    height: 98px;
+    border: 3px solid black;
+   /* border-radius: 50%;*/
+    background-color: black;
+    margin-top: 30px;
+    animation-name: coc;
+    animation-duration: 2s;
+    animation-delay: 12s;
+}
+.divan5 {
+    width: 100px;
+    height: 98px;
+    border: 3px solid black;
+   /* border-radius: 50%;*/
+    background-color: black;
+    margin-top: 30px;
+    position:relative;
+    animation-name: changer;
+    animation-delay: 2s;
+    animation-duration: 2s;
+}
+.divan6 {
+    width: 100px;
+    height: 98px;
+    border: 3px solid red;
+   /* border-radius: 50%;*/
+    background-color: red;
+    margin-top: 30px;
+    position: relative;
+    animation-name: ahmedd;
+    animation-duration: 2s;
+    animation-delay: 6s;
+}
+.divan7 {
+    width: 100px;
+    height: 98px;
+    border: 3px solid black;
+   /* border-radius: 50%;*/
+    background-color: black;
+    margin-top: 30px;
+    position: relative;
+    animation-name: pop;
+    animation-duration: 2s;
+    animation-delay:10s ;
+}
+.divan8 {
+    width: 100px;
+    height: 98px;
+    border: 3px solid red;
+    /*border-radius: 50%;*/
+    background-color: red;
+    margin-top: 30px;
+    position: relative;
+    animation-name: tot;
+    animation-duration: 2s;
+    animation-delay: 14s;
+}
+.father {
+    margin-left: 1200px;
+    margin-top: -536px;
+}
+@keyframes change {
+    0% {width: 100px;}
+    100% {width: 1200px;}
+}
+@keyframes changer {
+    0% {width: 100px; right: 0px;}
+    100% {width: 1200px; right:1200px;}
+    
+}
+@keyframes ahmed {
+    0% { width: 100px; }
+    100% {width: 1200px;}
+}
+@keyframes ahmedd {
+    0%{width: 100px; right: 0px;}
+    100% {width: 1200px; right: 1200px;}
+}
+@keyframes ahmeddd {
+    0% { width: 100px; }
+    100% {width: 1200px;}
+}
+@keyframes pop {
+    0% {width: 100px; right: 0px;}
+    100% {width: 1200px; right: 1200px;}
+}
+@keyframes coc {
+    0% { width: 100px; }
+    100% {width: 1200px;}
+}
+@keyframes tot {
+    0% {width: 100px; right: 0px;}
+    100% {width: 1200px; right: 1200px;}
+}
